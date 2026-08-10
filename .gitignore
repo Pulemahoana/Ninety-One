@@ -1,5 +1,80 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# ============ BUILD OUTPUTS ============
+# Ignore bin and obj folders everywhere
+**/bin/
+**/obj/
+**/out/
+**/publish/
 
-/.vs
+# ============ DATABASE ============
+*.db
+*.sqlite
+*.sqlite3
+
+# ============ VISUAL STUDIO ============
+.vs/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.sln.ide
+
+# ============ USER-SPECIFIC FILES ============
+*.csproj.user
+*.csproj.orig
+*.csproj.bak
+*.sln.orig
+*.sln.bak
+
+# ============ NUGET ============
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+*.lock.json
+!packages/repositories.config
+
+# ============ LOGS ============
+*.log
+logs/
+**/logs/
+
+# ============ TEMPORARY FILES ============
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+
+# ============ OS GENERATED FILES ============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============ IDE ============
+.idea/
+.vscode/
+*.code-workspace
+
+# ============ TEST RESULTS ============
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# ============ PUBLISH ============
+**/Properties/PublishProfiles/*.pubxml.user
+
+# ============ BACKUP ============
+*.bak
+*.backup
+*.old
+
+# ============ DEPLOYMENT ============
+*.deploy
+*.deployproj
+*.deployproj.user

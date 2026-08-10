@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TopScorers.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6a309b2fc835cc00305829b85ab059066cd9686")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6ed8b397cb1e98317f1a03b75168b45cabf6715")]
 [assembly: System.Reflection.AssemblyProductAttribute("TopScorers.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TopScorers.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
