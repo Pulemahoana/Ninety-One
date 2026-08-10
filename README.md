@@ -31,3 +31,27 @@ Run the application
  - JWT - Authentication
  - Swagger/OpenAPI - API documentation
  - C# - Programming language
+
+ Evidence
+ 1. Terminal 1
+  - cd TopScorers.Console
+  - dotnet build
+  - dotnet run
+ <img width="534" height="412" alt="image" src="https://github.com/user-attachments/assets/88ee20e3-2d5c-4f1c-8f02-26ab411b1305" />
+
+2. Terminal 2
+  - cd TopScorers.API
+  - dotnet build
+  - dotnet run
+ <img width="849" height="488" alt="image" src="https://github.com/user-attachments/assets/26e7a2a5-901a-4788-9824-5f3c8e64d4cc" />
+  Go to Browser http://localhost:5284/swagger
+<img width="1769" height="1111" alt="image" src="https://github.com/user-attachments/assets/4f1fd427-0577-49b4-a732-d6a29ee653f2" />
+Then 
+<img width="1433" height="493" alt="image" src="https://github.com/user-attachments/assets/7d589918-ca53-4a95-899b-3fa59d24b11b" />
+<img width="1429" height="300" alt="image" src="https://github.com/user-attachments/assets/3dab2a7a-457c-41e9-a5fb-6145c19bfb14" />
+<img width="729" height="397" alt="image" src="https://github.com/user-attachments/assets/7a2d781d-7aac-4227-8d95-027bbe644f39" />
+<img width="1466" height="418" alt="image" src="https://github.com/user-attachments/assets/ca56aff9-0dfa-4431-b94d-c21c44a01791" />
+<img width="1452" height="515" alt="image" src="https://github.com/user-attachments/assets/b2218cdd-5886-4226-ad14-b116c15ecab7" />
+
+
+
