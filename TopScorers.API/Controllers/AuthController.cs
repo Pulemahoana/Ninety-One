@@ -51,8 +51,6 @@ public class AuthController : ControllerBase
         {
             return BadRequest(new { Message = "Username must be at least 3 characters and password at least 6 characters" });
         }
-
-        // In production, hash the password and save to database
         var token = GenerateJwtToken(request.Username);
         return Ok(new
         {
