@@ -16,7 +16,7 @@ class Program
         ConfigureServices(services);
         var serviceProvider = services.BuildServiceProvider();
 
-        // Ensure database is created before using it
+        // Ensuring database is created before using it
         using (var scope = serviceProvider.CreateScope())
         {
             var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
