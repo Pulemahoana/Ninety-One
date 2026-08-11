@@ -87,18 +87,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Top Scorers API v1");
-        // Don't set RoutePrefix to empty - let it use default /swagger
     });
 }
 
-// IMPORTANT: Comment this out or make it conditional
 // app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-// Ensure database is created
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
